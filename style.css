@@ -48,3 +48,41 @@ table {
 }
 
 /*End of CSS reset*/
+body{
+  background:#ede7d9;
+  font-family: 'PT Sans', sans-serif;
+  color:4b4237;
+}
+.web-title , .web-sub-title{
+  font-family: 'Gugi', cursive;
+  color:#d5a021;
+}
+.web-title{
+  font-size:2rem;
+}
+.header-top{
+  width:80%;
+  margin:20px 5%;
+  padding:20px 5%;
+  background-color:#4b4237;
+  display:flex;
+  align-items:center;
+  border-radius:10px;
+}
+.logo-container{
+  display:flex;
+  flex-grow:6;
+}
+.logo-picture{
+  /* margin:20px 30px; */
+}
+.search-continer{
+  /* margin-left:50%; */
+  flex-grow:1;
+  height:100%;
+  align-items: center;
+  text-align:center;
+}
+.searchbar{
+  padding:10px;
+}
