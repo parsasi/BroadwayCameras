@@ -5,9 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Broadway Cameras and lenses</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Gugi|PT+Sans&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/cce34bf4d0.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
 </head>
 
 <body>
@@ -15,11 +15,11 @@
 		<section class="header-top">
 			<div class="logo-container">
           <div>
-            <img class="logo-picture" src="images/logoDefault.png" alt="Logo"/>
+            <img class="logo-picture" src="images/LogoOriginalYellow.png" alt="Logo"/>
           </div>
           <div class="logo-names">
-<!--            <h1 class="web-title">Broadway Cameras</h1>-->
-<!--            <h2 class="web-sub-title">and lenses</h2>-->
+           <h1 class="web-title">Broadway Cameras</h1>
+           <h2 class="web-sub-title">and lenses</h2>
           </div>
         </div>
         <div class="search-continer">
@@ -37,43 +37,201 @@
     </header>
     <main>
       <section class="slider-category-container">
-        <div class="categories-container">
-          <div class="categories-header"><h3>Shop by category</h3></div>
-          <div class="categories">
-            <ul class="categories-list">
-              <li class="categories-list-item"><a href="#" class="categories-link">DSLR</a></li>
-              <li class="categories-list-item"><a href="#" class="categories-link">SLR</a></li>
-              <li class="categories-list-item"><a href="#" class="categories-link">Film</a></li>
-              <li class="categories-list-item"><a href="#" class="categories-link">Instant</a></li>
-            </ul>  
-          <div>
+        <div class="categories-main-container">
+          <div class="categories-container">
+            <div class="categories-header"><h3 class="categories-header-title">Shop cameras by category</h3></div>
+            <div class="categories">
+              <ul class="categories-list">
+                <li class="categories-list-item"><a href="#" class="categories-link">DSLR</a></li>
+                <li class="categories-list-item"><a href="#" class="categories-link">SLR</a></li>
+                <li class="categories-list-item"><a href="#" class="categories-link">Film</a></li>
+                <li class="categories-list-item"><a href="#" class="categories-link">Instant</a></li>
+                <li class="categories-list-item"><a href="#" class="categories-link">Mirrorless</a></li>
+                <li class="categories-list-item"><a href="#" class="categories-link">Compact</a></li>
+              </ul>  
+            </div>
+          </div>
+          <div class="categories-container">
+            <div class="categories-header"><h3 class="categories-header-title">Shop lenses by category</h3></div>
+            <div class="categories">
+              <ul class="categories-list">
+                <li class="categories-list-item"><a href="#" class="categories-link">Standard</a></li>
+                <li class="categories-list-item"><a href="#" class="categories-link">Macro</a></li>
+                <li class="categories-list-item"><a href="#" class="categories-link">Telephoto</a></li>
+                <li class="categories-list-item"><a href="#" class="categories-link">Wide Angle</a></li>
+              </ul>  
+            </div>
+          </div>
         </div>
-        <div class="slider"></div>
+        <div class="slider">
+          <div class="slick-slider">
+            <div class="slider-item"><img src="images/Slider1.png" alt="Slider Image"></div>
+            <div class="slider-item"><img src="images/Slider1.png" alt="Slider Image"></div>
+            <div class="slider-item"><img src="images/Slider1.png" alt="Slider Image"></div>
+          </div>
+        </div>
       </section>
       <section class="new-models-container">
-        <h4>Newer Modles</h4>
-        <div class="new-modles-carousel">
-          <!-- Carosle library elements go here -->
-        </div>
-      </section>
-      <section class="offers-container">
-        <h5> Special Offers </h5>
-        <div class="offers-list">
-          <div class="offer-list-item">
-            <div class="offer-list-media">
-              <div class="offer-list-image-container">
-                <img src="#" alt="Special Offer Photo"/>
-              </div>
-              <div class="offer-list-links-container">
-                <a href="#" class="offer-list-link">Add to Card</a>
-                <a href="#" class="offer-list-link">Read more</a>
-              </div>
+        <h4 class="new-models-main-title">Newer Modles</h4>
+        <div class="new-models-carousel">
+          <div class="new-models-item">
+            <div class="new-models-image-container">
+              <img class="new-models-image" src="images/ef17.png" alt="New Model"/>
+            </div>
+            <div class="new-models-title">
+              <h5>SIGMA EF 18-35</h5>
+            </div>
+            <div class="new-models-describtion">
+              <p>  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. </p>
+            </div>
+            <div class="new-models-buttons-container">
+              <a href="#" class="new-models-link add-to-card"><i class="fas fa-shopping-cart"></i> Buy this item </a>
+              <a href="#" class="new-models-link read-more"><i class="fas fa-info-circle"></i> See details </a>
+            </div>
+          </div>
+          <div class="new-models-item">
+            <div class="new-models-image-container">
+              <img class="new-models-image" src="images/ef17.png" alt="New Model"/>
+            </div>
+            <div class="new-models-title">
+              <h5>SIGMA EF 18-35</h5>
+            </div>
+            <div class="new-models-describtion">
+              <p>  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. </p>
+            </div>
+            <div class="new-models-buttons-container">
+              <a href="#" class="new-models-link add-to-card"><i class="fas fa-shopping-cart"></i> Buy this item </a>
+              <a href="#" class="new-models-link read-more"><i class="fas fa-info-circle"></i> See details </a>
+            </div>
+          </div>
+          <div class="new-models-item">
+            <div class="new-models-image-container">
+              <img class="new-models-image" src="images/ef17.png" alt="New Model"/>
+            </div>
+            <div class="new-models-title">
+              <h5>SIGMA EF 18-35</h5>
+            </div>
+            <div class="new-models-describtion">
+              <p>  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. </p>
+            </div>
+            <div class="new-models-buttons-container">
+              <a href="#" class="new-models-link add-to-card"><i class="fas fa-shopping-cart"></i> Buy this item </a>
+              <a href="#" class="new-models-link read-more"><i class="fas fa-info-circle"></i> See details </a>
+            </div>
+          </div>
+          <div class="new-models-item">
+            <div class="new-models-image-container">
+              <img class="new-models-image" src="images/ef17.png" alt="New Model"/>
+            </div>
+            <div class="new-models-title">
+              <h5>SIGMA EF 18-35</h5>
+            </div>
+            <div class="new-models-describtion">
+              <p>  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. </p>
+            </div>
+            <div class="new-models-buttons-container">
+              <a href="#" class="new-models-link add-to-card"><i class="fas fa-shopping-cart"></i> Buy this item </a>
+              <a href="#" class="new-models-link read-more"><i class="fas fa-info-circle"></i> See details </a>
             </div>
           </div>
         </div>
       </section>
+      <section class="offers-container">
+        <h4 class="offers-main-title"> Special Offers </h5>
+        <div class="offers-list">
+          <div class="offer-list-item">
+            <div class="offer-list-media">
+              <div class="offer-list-image-container">
+                <img class="offer-image" src="images/ef17.png" alt="Special Models"/>
+              </div>
+            </div>
+            <div class="offer-text">
+              <div class="offer-title">
+                <h5>SIGMA EF 18-35</h5>
+              </div>
+              <div class="offer-describtion">
+                <p>
+                  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. 
+                  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. 
+                </p>
+              </div>
+              <div class="offer-list-links-container">
+                <a href="#" class="offer-list-link add-to-card"><i class="fas fa-shopping-cart"></i> Buy this item </a>
+                <a href="#" class="offer-list-link read-more"><i class="fas fa-info-circle"></i> See details </a>
+              </div>
+            </div>  
+          </div>
+          <div class="offer-list-item">
+            <div class="offer-list-media">
+              <div class="offer-list-image-container">
+                <img class="offer-image" src="images/ef17.png" alt="Special Models"/>
+              </div>
+            </div>
+            <div class="offer-text">
+              <div class="offer-title">
+                <h5>SIGMA EF 18-35</h5>
+              </div>
+              <div class="offer-describtion">
+                <p>
+                  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. 
+                  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. 
+                </p>
+              </div>
+              <div class="offer-list-links-container">
+                <a href="#" class="offer-list-link add-to-card"><i class="fas fa-shopping-cart"></i> Buy this item </a>
+                <a href="#" class="offer-list-link read-more"><i class="fas fa-info-circle"></i> See details </a>
+              </div>
+            </div>  
+          </div>
+          <div class="offer-list-item">
+            <div class="offer-list-media">
+              <div class="offer-list-image-container">
+                <img class="offer-image" src="images/ef17.png" alt="Special Models"/>
+              </div>
+            </div>
+            <div class="offer-text">
+              <div class="offer-title">
+                <h5>SIGMA EF 18-35</h5>
+              </div>
+              <div class="offer-describtion">
+                <p>
+                  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. 
+                  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. 
+                </p>
+              </div>
+              <div class="offer-list-links-container">
+                <a href="#" class="offer-list-link add-to-card"><i class="fas fa-shopping-cart"></i> Buy this item </a>
+                <a href="#" class="offer-list-link read-more"><i class="fas fa-info-circle"></i> See details </a>
+              </div>
+            </div>  
+          </div>
+          <div class="offer-list-item">
+            <div class="offer-list-media">
+              <div class="offer-list-image-container">
+                <img class="offer-image" src="images/ef17.png" alt="Special Models"/>
+              </div>
+            </div>
+            <div class="offer-text">
+              <div class="offer-title">
+                <h5>SIGMA EF 18-35</h5>
+              </div>
+              <div class="offer-describtion">
+                <p>
+                  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. 
+                  SIGMA is back in the game with their new lense F18-35. This lense is from the EF series and is adabtible with F Cameras using an adabter. 
+                </p>
+              </div>
+              <div class="offer-list-links-container">
+                <a href="#" class="offer-list-link add-to-card"><i class="fas fa-shopping-cart"></i> Buy this item </a>
+                <a href="#" class="offer-list-link read-more"><i class="fas fa-info-circle"></i> See details </a>
+              </div>
+            </div>  
+          </div>
+          
+        </div>
+      </section>
       <section class="newsletter-container">
-        <h5>Subscribe to our newsletter</h5>
+        <h5 class="newsletter-title">Subscribe to our newsletter</h5>
         <form class="newsletter-form">
           <input type="email" class="newsletter-email-input" placeholder="example@examp.com" />
           <button class="newsletter-submit-button"> Subscribe </button>
@@ -81,29 +239,36 @@
       <section> 
     </main>
     <footer>
-      <section class="footer-video-container">
-        <video controls class="footer-video">
-          <source src="#" />
-          Could not play the video here!
-        </video>
-      </section>
-      <section class="footer-feedback-links-container">
-        <h6 class="footer-feedback-title">Give us some feedback</h6>
-        <form class="footer-feedback-footer">
-            <textarea placeholder="Feedback here..."></textarea>
-            <button class="feedback-button">Send</button>
-        </form>
-        <div class="footer-navigation-container">
-          <ul class="footer-navigation-list">
-            <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Home</a></li>
-            <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Cameras</a></li>
-            <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Lenses</a></li>
-            <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Broadway University</a></li>
-            <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Sing in</a></li>
-          </ul>
-        </div>
-      </section>
+      <div class="footer-container">
+        <section class="footer-video-container">
+          <h6 class="footer-video-title">Why choose us</h6>
+          <video controls class="footer-video">
+            <source src="#" />
+            Could not play the video here!
+          </video>
+        </section>
+        <section class="footer-feedback-links-container">
+          <h6 class="footer-feedback-title">Give us some feedback</h6>
+          <form class="footer-feedback-form">
+              <textarea class="footer-feedback-input" placeholder="Feedback here..."></textarea>
+              <button class="footer-feedback-button">Send</button>
+          </form>
+          <div class="footer-navigation-container">
+            <ul class="footer-navigation-list">
+              <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Home</a></li>
+              <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Cameras</a></li>
+              <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Lenses</a></li>
+              <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Broadway University</a></li>
+              <li class="footer-navigation-list-item"><a href="#" class="footer-navigation-link">Sing in</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </footer>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/cce34bf4d0.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
     <script src="script.js"></script>
   </body>
 </html>
